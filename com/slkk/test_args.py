@@ -19,10 +19,25 @@ def calc(*num):
     for x in num:
         sum += x * x;
     return sum;
-print(calc(1,2,3))
-a=list([1,2,2,2])
+
+
+print(calc(1, 2, 3))
+a = list([1, 2, 2, 2])
 print(calc(*a))
 
-def args(name,age,**args):
-    return "你的名字是：%s,年龄是%s,其他是%s"%(name,age,args)
-print(args('shenli',23,habbit="adf"))
+
+def args(name, age, **args):
+    return "你的名字是：%s,年龄是%s,其他是%s" % (name, age, args)
+
+
+print(args('shenli', 23, habbit="adf"))
+
+
+def fact(x):
+    if x == 1:
+        return 1
+    return x * fact(x - 1)
+
+
+a = int(input("请输入要计算的阶乘："))
+print(fact(a))
