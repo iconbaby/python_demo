@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8d1959e-ccf0-402c-b069-dfcc484d9fb6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/slkk/test_list.py" afterPath="$PROJECT_DIR$/com/slkk/test_list.py" />
-    </list>
+    <list default="true" id="d8d1959e-ccf0-402c-b069-dfcc484d9fb6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,16 +20,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_iterable.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/slkk/test_iterable.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -107,12 +95,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_json-student.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_json-student.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/slkk/test_json-student.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_progress.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/slkk/test_progress.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,12 +150,13 @@
         <option value="$PROJECT_DIR$/com/slkk/test_pickle.py" />
         <option value="$PROJECT_DIR$/com/slkk/test_json.py" />
         <option value="$PROJECT_DIR$/com/slkk/test_json-student.py" />
+        <option value="$PROJECT_DIR$/com/slkk/test_progress.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="528" />
-    <option name="y" value="27" />
+    <option name="x" value="-135" />
+    <option name="y" value="51" />
     <option name="width" value="1386" />
     <option name="height" value="748" />
   </component>
@@ -231,24 +232,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.test_json-student">
-    <configuration default="false" name="test_file_with" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/slkk" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/slkk/test_file_with.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.test_progress">
     <configuration default="false" name="test_dir" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -313,6 +297,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_demo" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/slkk/test_json-student.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_progress" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/slkk" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_demo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/slkk/test_progress.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -452,19 +453,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test_file_with" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test_dir" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test_pickle" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test_json" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test_json-student" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test_dir" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test_pickle" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_json" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_json-student" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test_progress" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test_json-student" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_json" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test_pickle" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test_dir" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test_file_with" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test_progress" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_json-student" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_json" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test_pickle" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test_dir" />
       </list>
     </recent_temporary>
   </component>
@@ -482,15 +483,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="528" y="27" width="1386" height="748" extended-state="0" />
-    <editor active="true" />
+    <frame x="-135" y="51" width="1386" height="748" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24817519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22100313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36833856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -853,6 +854,16 @@
         <state relative-caret-position="170">
           <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/slkk/test_progress.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
